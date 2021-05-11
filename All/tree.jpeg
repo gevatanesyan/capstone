@@ -1,0 +1,5 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Quiz attempt submitted <= 9.5\ngini = 0.464\nsamples = 240\nvalue = [133, 231]\nclass = sucess", fillcolor="#abd5f4"] ;
+1 [label="Submission created. <= 7.5\ngini = 0.496\nsamples = 191\nvalue = [132, 157]\nclass = sucess", fillcolor="#dfeffb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
